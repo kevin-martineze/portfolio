@@ -17,7 +17,7 @@ const socialIconMap: Record<string, React.ReactNode> = {
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="relative py-24 sm:py-32">
+    <section id="contact" className="relative py-24 sm:py-32 overflow-hidden">
       <div className="orb orb-pink w-[400px] h-[400px] top-0 left-1/3" />
       <div className="orb orb-violet w-[300px] h-[300px] bottom-0 right-0" />
 

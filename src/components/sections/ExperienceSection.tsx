@@ -15,7 +15,7 @@ const logoMap: Record<string, typeof LogoPangea> = {
 
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="relative py-24 sm:py-32">
+    <section id="experience" className="relative py-24 sm:py-32 overflow-hidden">
       <div className="mx-auto max-w-6xl px-6">
         {/* Section heading */}
         <motion.div

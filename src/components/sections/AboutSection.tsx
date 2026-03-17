@@ -48,7 +48,7 @@ const techStack: string[] = [
 
 export default function AboutSection() {
   return (
-    <section id="about" className="relative py-24 sm:py-32">
+    <section id="about" className="relative py-24 sm:py-32 overflow-hidden">
       <div className="mx-auto max-w-6xl px-6">
         {/* Section heading */}
         <motion.div

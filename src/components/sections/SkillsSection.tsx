@@ -26,7 +26,7 @@ const iconMap: Record<string, LucideIcon> = {
 
 export default function SkillsSection() {
   return (
-    <section id="skills" className="relative py-24 sm:py-32">
+    <section id="skills" className="relative py-24 sm:py-32 overflow-hidden">
       <div className="orb orb-cyan w-[350px] h-[350px] bottom-0 left-0" />
 
       <div className="relative z-10 mx-auto max-w-6xl px-6">

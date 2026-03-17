@@ -110,7 +110,7 @@ export default function ProjectsSection() {
   const [selected, setSelected] = useState<Project | null>(null);
 
   return (
-    <section id="projects" className="relative py-24 sm:py-32">
+    <section id="projects" className="relative py-24 sm:py-32 overflow-hidden">
       {/* Background accent */}
       <div className="orb orb-violet w-[400px] h-[400px] top-0 right-0" />
 
