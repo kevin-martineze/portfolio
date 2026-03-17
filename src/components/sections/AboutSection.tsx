@@ -137,11 +137,11 @@ export default function AboutSection() {
               <p className="text-base text-muted-foreground/80 leading-relaxed font-medium">
                 Me especializo en construir aplicaciones web con React y el
                 ecosistema de Next.js, así como aplicaciones móviles con React
-                Native. Creo en el poder del desarrollo robusto y el diseño
-                funcional: interfaces que no solo se ven increíbles, sino que
-                resuelven problemas reales. Siempre estoy explorando nuevas
-                tecnologías y mejores prácticas para entregar experiencias de
-                usuario excepcionales en múltiples plataformas.
+                Native. Potencio mi flujo de trabajo utilizando herramientas de
+                IA de vanguardia como <strong>Antigravity</strong> y{" "}
+                <strong>Claude Code</strong>, lo que me permite centrarme en lo
+                que realmente importa: crear interfaces increíbles que resuelven
+                problemas reales de manera eficiente y escalable.
               </p>
 
               {/* Tech stack */}

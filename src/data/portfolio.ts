@@ -4,17 +4,17 @@ export const personalInfo = {
   tagline:
     "Creando experiencias web modernas, accesibles y visualmente impactantes",
   description:
-    "Desarrollador Full Stack con un fuerte enfoque en el frontend, especializado en crear aplicaciones web y móviles de alto rendimiento. Mi objetivo es transformar ideas complejas en productos digitales intuitivos y escalables.",
+    "Desarrollador Full Stack con un fuerte enfoque en el frontend, especializado en crear aplicaciones web y móviles de alto rendimiento.",
   email: "martinezkevindev@gmail.com",
   location: "Colombia",
   availability: "Disponible para oportunidades",
 };
 
 export const socialLinks = [
-  { name: "GitHub", url: "https://github.com/kevinmartinez", icon: "Github" },
+  { name: "GitHub", url: "https://github.com/kevin-martineze", icon: "Github" },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/kevinmartinez",
+    url: "https://www.linkedin.com/in/kevin-martíenez-escorcia-2008ba284/?trk=opento_sprofile_topcard",
     icon: "Linkedin",
   },
   {
@@ -22,7 +22,7 @@ export const socialLinks = [
     url: "https://twitter.com/kevinmartinez",
     icon: "Twitter",
   },
-  { name: "Email", url: "mailto:kevin@example.com", icon: "Mail" },
+  { name: "Email", url: "mailto:martinezkevindev@gmail.com", icon: "Mail" },
 ];
 
 export const navLinks = [
@@ -132,13 +132,25 @@ export const skills: SkillCategory[] = [
     category: "Mobile Development",
     icon: "Smartphone",
     description: "Apps nativas y multiplataforma con una sola base de código.",
-    skills: ["React Native", "Expo", "Mobile UI Patterns", "App Store / Play Store Deploy"],
+    skills: [
+      "React Native",
+      "Expo",
+      "Mobile UI Patterns",
+      "App Store / Play Store Deploy",
+    ],
   },
   {
     category: "Backend & Systems",
     icon: "Terminal",
     description: "Arquitecturas de servidor seguras, escalables y eficientes.",
-    skills: ["Node.js", "NestJS", "Express", "REST APIs", "GraphQL", "Auth (JWT, OAuth)"],
+    skills: [
+      "Node.js",
+      "NestJS",
+      "Express",
+      "REST APIs",
+      "GraphQL",
+      "Auth (JWT, OAuth)",
+    ],
   },
   {
     category: "Databases & Cloud",
@@ -158,6 +170,18 @@ export const skills: SkillCategory[] = [
     icon: "ShieldCheck",
     description: "Garantizando la estabilidad y mantenibilidad.",
     skills: ["Jest", "Cypress", "Testing Library", "CI/CD", "TDD"],
+  },
+  {
+    category: "AI & Productivity",
+    icon: "Sparkles",
+    description: "Desarrollo acelerado mediante herramientas de IA de vanguardia.",
+    skills: [
+      "Claude Code",
+      "Antigravity",
+      "GitHub Copilot",
+      "Prompt Engineering",
+      "AI-Driven Dev",
+    ],
   },
 ];
 

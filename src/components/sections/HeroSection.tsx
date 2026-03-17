@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { ArrowDown, Download, Send } from "lucide-react";
 
 //? COMPONENTS
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 //? DATA
 import { personalInfo } from "@/data/portfolio";
 
@@ -29,18 +30,6 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-6xl px-6 py-32 text-center">
         {/* Availability badge */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 mb-10 px-4 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-[10px] font-bold uppercase tracking-widest text-primary"
-        >
-          <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
-          </span>
-          {personalInfo.availability}
-        </motion.div>
 
         {/* Name */}
         <motion.h1
@@ -90,17 +79,20 @@ export default function HeroSection() {
             />
             Contáctame
           </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="group px-8 py-6 text-base rounded-xl border-border hover:border-primary/50 hover:bg-primary/5"
+          <a 
+            href="/hv.pdf" 
+            download="CV_Kevin_Martinez.pdf"
+            className={cn(
+              buttonVariants({ variant: "outline", size: "lg" }),
+              "group px-8 py-6 text-base rounded-xl border-border hover:border-primary/50 hover:bg-primary/5"
+            )}
           >
             <Download
               size={18}
               className="mr-2 group-hover:translate-y-0.5 transition-transform"
             />
-            Descargar CV
-          </Button>
+            Descargar HV
+          </a>
         </motion.div>
 
         {/* Tech decoration */}

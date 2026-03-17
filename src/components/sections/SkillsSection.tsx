@@ -7,6 +7,7 @@ import {
   Smartphone,
   ShieldCheck,
   Layers,
+  Sparkles,
   type LucideIcon,
 } from "lucide-react";
 
@@ -20,6 +21,7 @@ const iconMap: Record<string, LucideIcon> = {
   Cloud: Cloud,
   ShieldCheck: ShieldCheck,
   Layers: Layers,
+  Sparkles: Sparkles,
 };
 
 export default function SkillsSection() {
